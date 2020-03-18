@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>동아리 가입서</legend>
+
+            동아리명    <mark>카리스마</mark><br><br>
+            이름        <input><br><br>
+            학부 / 학과 
+            <select name = "학부/학과">
+                <option value = "1" selected>체육교육과</option>
+                <option value = "2">국어교육과 </option>
+                <option value = "3">영어교육과</option>
+                <option value = "4">수학교육과</option>
+                <option value = "5">사회교육과</option>
+            </select> <br><br>
+            학년 
+            <input type = "radio" name = "year" value = '1' checked/> 1학년
+            <input type = "radio" name = "year" value = '2' /> 2학년
+            <input type = "radio" name = "year" value = '3' /> 3학년
+            <input type = "radio" name = "year" value = '4' /> 4학년 <br><br>
+
+            학번 <input type = "number" name = "hakbun"/> <br><br>
+
+            주소 <input type = "text" name = "address"/> <br><br>
+            
+            연락처  
+            <input type = "radio" name = "tele" value = "home"/> 집
+            <input type = "radio" name = "tele" value = "phone"/> 휴대 <br>
+            
+            <input type="number"name="phone_1" maxlength = "3"/> -
+               <input type="number" name="phone_2" maxlength = "4"/> -
+                  <input type="number" name="phone_3" maxlength = "4"/> <br><br>
+            
+
+
+            가입 동기
+            <textarea rows = '3' cols="50">카리스마의 어떤 점을 보고 가입하고 싶으셨나요?</textarea> <br>
+            
+            자기 소개 
+            <textarea rows = '6' cols="50">당신은 어떤 사람인가요?</textarea><br>
+
+
+            <button type = "summit"> 가입하기</button> 
+            <button type = "reset"> 취소하기</button> 
+             
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

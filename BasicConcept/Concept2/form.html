@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag 연습</title>
+</head>
+<body>
+    
+    <form method = "get">
+        <fieldset>
+            <legned>개인정보입력</legned>
+            Name : <input type = "text"> <br/>
+            Age : <input type = "number">
+        </fieldset>
+
+        <fieldset>
+            <legend>지원분야입력</legend>
+            경력사항입력 : <textarea cols = "40" rows= "5"></textarea>
+        </fieldset>
+        
+
+    <!-- <form method = "GET" action = "hello.jsp" >
+    이름 : <input type = "text" size = "20" placehorder = "Enter your name" maxlength = "5" required> <br/>
+    자기소개 : <textarea cols = "40" rows = "20"></textarea>  -->
+
+    <!-- <form action = "0224/Hello">  내가 보낸 문서를 서버에 있는 hello.jsp가 받는 것임, 즉 action은 서버에서 기다리고 있는 페이지임
+    <form action = "0224/Hello">  내가 보낸 문서를 서버에 있는 hello.클래스가 받는 것임 -->
+    <!-- <input type = "submit" value = "전송하기"> -->
+    <!-- Address : <input type = "text" size = "40" name = "username" /> <br/> -->
+            
+    <!-- enctype = "application/x-www-form-urlencoded"> 이 안의 값은 기본값이라서 안 외워도 된다. -->
+    <!-- enctype = "multipart/form-data"> 파일 업로드하는 것임. ex)사진을 업로드 할 때 무조건 써야 된다. 이 구문은 기억해야 된다. -->
+        <!-- Name : <input type = "text" name = "username"/> <br /> <!--type에서 text 숫자 등 다 결정가능-->
+        <!-- Age : <input type = "number" age = "userage"> <br />   <!--입력은 다 input-->
+        <!-- <input type="submit" value = "전송하기"/>
+        <button type = "reset"> 가입하기</button> 
+    </form><br.>
+
+    <!-- <button>Click Me! form 밖의 있는 것은 독립적이라서 포함되지 않는다. -->
+
+</body>
+</html>

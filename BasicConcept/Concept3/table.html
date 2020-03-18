@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    
+    <table border = "1" width="300" height="200" align="center"
+    cellspacing="20" bordercolor="purple" background = "images/sin.jpg" cellpadding = "10"> <!-- cellspacing은 cell과의 거리를 뜻함 / bgcolor = "red"로 background색 줄 수 있다.-->
+        <caption>쌍용고등학교 성적표</caption>
+        
+        <thead>  <!--bgcolor로서는 테이블, 특정 셀은 색 지정 가능한데 특정 열 전체는 안 된다.--> 
+            <tr bgcolor = "yellow"><th>학번</th><th>이름</th><th>국어</th></tr>  <!-- table row= tr, table head = th(기본이 가운데 정렬 + 진하게) -->
+        </thead>
+       
+        <tbody>
+            <tr><td>2011-01</td><td align="center">허강준</td><td>100</td></tr>  <!--table data = td // align은 center로 --> 
+            <tr><td>2011-02</td><td>남규리</td><td>80</td></tr>
+        </tbody>
+       
+        <tfoot>
+            <tr><td>합계</td><td>&nbsp;</td><td>180</td></tr>
+        </tfoot>
+
+
+    </table>
+
+</body>
+</html>
+
+
+
+
